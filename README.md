@@ -4,7 +4,7 @@
 - **Programming Languages**: Python, R, SQL
 - **Data Analysis and Visualization**: Pandas, NumPy, Matplotlib, Seaborn, ggplot2
 - **Machine Learning**: Scikit-learn, Tensorflow and Tytorch
-- **Databases**: MySQL
+- **Databases**: MySQL,Excel
 - **Tools**: Jupyter Notebook, RStudio, and Google Colab
 
 ## Education
