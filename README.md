@@ -26,14 +26,39 @@
 ###   Pneumonia Detection Using Deep Learning
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
 
 ### Prediction of Customer Purchase Behaviour
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
 
-Used **Matlab** to train over 100 machine learning models which estimated particulate matter concentrations based on a suite of over 300 biometric variables. We found biometric variables can be used to accurately estimate particulate matter concentrations at ultra-fine spatial scales with high fidelity (r2 = 0.91) and that smaller particles are better estimated than larger ones. Inferring environmental conditions solely from biometric measurements allows us to disentangle key interactions between the environment and the body.
+#### Overview
+This project aims to analyze and predict customer purchase behavior using machine learning techniques. By understanding the factors that influence purchase decisions, businesses can tailor their strategies to enhance customer engagement and increase sales. The dataset used in this project was sourced from Kaggle and includes various attributes related to customer demographics, purchasing habits, and other relevant features.
+Dataset Description
+
+#### The data exploration phase revealed the following insights:
+- AnnualIncome, NumberOfPurchases, TimeSpentOnWebsite, LoyaltyProgram, and DiscountsAvailed are positively correlated with PurchaseStatus. And Age is negatively correlated with PurchaseStatus.
+  ![Bike Study](/assets/img/bike_study.jpeg)
+- Number of Purchases: Customers with fewer purchases are less likely to purchase.
+ ![Bike Study](/assets/img/bike_study.jpeg)
+- Age: Younger customers (20-40 years) are more likely to purchase than older customers (40+ years).
+  ![Bike Study](/assets/img/bike_study.jpeg)
+- Product Category and Gender: The ratios of customers likely to purchase are the same across different categories and genders.
+  ![Bike Study](/assets/img/bike_study.jpeg)
+
+#### Model Building
+
+##### Multiple machine learning models were trained and evaluated to predict customer purchase behavior:
+
+     - Logistic Regression
+     - Random Forest
+     - K-Nearest Neighbors (KNN)
+     -  Support Vector Machine (SVM)
+      - Deep Learning Model (using TensorFlow)
+
+#### Evaluation Metrics
+##### The models were evaluated using various metrics, including accuracy, precision, recall, and F1-score. Confusion matrices were also generated to provide a detailed evaluation of model performance.
+Results. The Random Forest model achieved the highest accuracy, followed by the Logistic Regression and Support Vector Machine models. The deep learning model showed promising results but requires further tuning for optimal performance.
 
 ![Bike Study](/assets/img/bike_study.jpeg)
 
