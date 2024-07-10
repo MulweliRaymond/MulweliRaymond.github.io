@@ -50,15 +50,15 @@ Dataset Description
 
 ##### Multiple machine learning models were trained and evaluated to predict customer purchase behavior:
 
-     - Logistic Regression
-     - Random Forest
-     - K-Nearest Neighbors (KNN)
-     -  Support Vector Machine (SVM)
-      - Deep Learning Model (using TensorFlow)
+- Logistic Regression
+- Random Forest
+- K-Nearest Neighbors (KNN)
+-  Support Vector Machine (SVM)
+-    - Deep Learning Model (using TensorFlow)
 
 #### Evaluation Metrics
 ##### The models were evaluated using various metrics, including accuracy, precision, recall, and F1-score. Confusion matrices were also generated to provide a detailed evaluation of model performance.
 Results. The Random Forest model achieved the highest accuracy, followed by the Logistic Regression and Support Vector Machine models. The deep learning model showed promising results but requires further tuning for optimal performance.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+![Bike Study](Customer  Purchase Project/Accuracy Comparison/ Untitled.png)
 
