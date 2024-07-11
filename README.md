@@ -37,14 +37,14 @@ This project aims to analyze and predict customer purchase behavior using machin
 Dataset Description
 
 #### The data exploration phase revealed the following insights:
-- AnnualIncome, NumberOfPurchases, TimeSpentOnWebsite, LoyaltyProgram, and DiscountsAvailed are positively correlated with PurchaseStatus. And Age is negatively correlated with PurchaseStatus.
-  ![Bike Study](/assets/img/bike_study.jpeg)
+- AnnualIncome, Number of Purchases, Time Spent on Website, Loyalty Program, and Discounts Availed are positively correlated with Purchase Status. And Age is negatively correlated with Purchase Status.
+  ![Correlation on Purchase Status](Customer/corr.png)
 - Number of Purchases: Customers with fewer purchases are less likely to purchase.
- ![Bike Study](/assets/img/bike_study.jpeg)
+ ![Number of Purchases Effect](/Customer/numofpur.png)
 - Age: Younger customers (20-40 years) are more likely to purchase than older customers (40+ years).
-  ![Bike Study](/assets/img/bike_study.jpeg)
+  ![Age Effect](/Customer/Age.png)
 - Product Category and Gender: The ratios of customers likely to purchase are the same across different categories and genders.
-  ![Bike Study](/assets/img/bike_study.jpeg)
+  ![Gender Effect](/Customer/Gender.png)
 
 #### Model Building
 
@@ -53,12 +53,12 @@ Dataset Description
 - Logistic Regression
 - Random Forest
 - K-Nearest Neighbors (KNN)
--  Support Vector Machine (SVM)
--    - Deep Learning Model (using TensorFlow)
+- Support Vector Machine (SVM)
+- Deep Learning Model (using TensorFlow)
 
 #### Evaluation Metrics
 ##### The models were evaluated using various metrics, including accuracy, precision, recall, and F1-score. Confusion matrices were also generated to provide a detailed evaluation of model performance.
 Results. The Random Forest model achieved the highest accuracy, followed by the Logistic Regression and Support Vector Machine models. The deep learning model showed promising results but requires further tuning for optimal performance.
 
-![Bike Study](Customer  Purchase Project/Accuracy Comparison/ Untitled.png)
+![Model Comparison](/Customer/comparison.png)
 
