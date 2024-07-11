@@ -27,8 +27,27 @@
 [Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 
 
+#### Background
+Pneumonia, a respiratory illness causing lung inflammation, requires early and accurate diagnosis for effective treatment. Traditional methods involve clinical symptoms, lab tests, and chest X-ray interpretations, which can be subjective and time-consuming. Recent advances in deep learning, particularly Convolutional Neural Networks (CNNs), offer promising solutions for automating and improving the accuracy of pneumonia diagnosis from chest X-rays. This Project Focuses on developing and evaluating two distinct CNN models to accurately classify chest X-ray images as either Pneumonia or Normal, aiding timely and accurate diagnosis in clinical settings.
+
+#### Data Exploration
+- Target Classes Distribution
+![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+- Sample of dataset
+![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+#### Data Transformation
+- We applied transformations like resizing to 64x64 pixels, random horizontal flips, and converting to PyTorch tensors.
+![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+
+#### Results
+-Both CNN models demonstrated high accuracy, with Model 2 outperforming Model 1 in all evaluation metrics. The study indicates that CNNs can significantly assist in pneumonia diagnosis, reducing radiologists' workload and improving accuracy.
 
 ![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+
+Future Work
+Future efforts may include exploring advanced architectures, incorporating diverse datasets, and deploying the models in clinical settings for real-world evaluation. This project highlights the potential of deep learning in medical image analysis and the importance of rigorous evaluation to identify optimal solutions.
+
+
 
 ### Prediction of Customer Purchase Behaviour
 [Github Project](https://github.com/MulweliRaymond/Predict-Customer-Purchase-Behaviour-Project)
