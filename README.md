@@ -32,17 +32,17 @@ Pneumonia, a respiratory illness causing lung inflammation, requires early and a
 
 #### Data Exploration
 - Target Classes Distribution
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![Classes](/Pneumonia/classes.png)
 - Sample of dataset
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![Sample](/Pneumonia/Sample.png)
 #### Data Transformation
 - We applied transformations like resizing to 64x64 pixels, random horizontal flips, and converting to PyTorch tensors.
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![Transformation](/Pneumonia/Transformation.png)
 
 #### Results
 -Both CNN models demonstrated high accuracy, with Model 2 outperforming Model 1 in all evaluation metrics. The study indicates that CNNs can significantly assist in pneumonia diagnosis, reducing radiologists' workload and improving accuracy.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![Comparison](/Pneumonia/comparison.png)
 
 Future Work
 Future efforts may include exploring advanced architectures, incorporating diverse datasets, and deploying the models in clinical settings for real-world evaluation. This project highlights the potential of deep learning in medical image analysis and the importance of rigorous evaluation to identify optimal solutions.
