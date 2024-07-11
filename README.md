@@ -24,7 +24,7 @@
 
 ## Projects
 ###   Pneumonia Detection Using Deep Learning
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+[Github Project](https://github.com/MulweliRaymond/Pneumonia-detection-deep-learning-project)
 
 
 #### Background
